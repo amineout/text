@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <div class="container1">
+        <h1>upper text</h1>
+   </div>
+   <div class="container2">
+        <div class="items1">
+            <ul>
+                <li id="lii" >contact</li>
+                <br>
+                <li>aaaaa</li>
+                <li>aaaaa</li>
+                <li>aaaaa</li>
+                <li>aaaaa</li>
+                <li>aaaaa</li>
+            </ul>
+        </div>
+        <div class="items2">
+            
+            <ul>
+                <li id="lii" >usful links</li>
+                <br>
+                <li>bbbb</li>
+                <li>bbbb</li>
+                <li>bbbb</li>
+                <li>bbbb</li>
+                <li>bbbb</li>
+                <li>bbbb</li>
+                <li>bbbb</li>
+                <li>bbbb</li>
+
+
+
+            </ul>
+        </div>
+        <div class="items3">
+            
+            <ul>
+                <li id="lii" >recent post</li>
+                <br>
+                <li>ccccc</li>
+                <li>ccccc</li>
+                <li>ccccc</li>
+                <li>ccccc</li>
+                <li>ccccc</li>
+            </ul>
+        </div>
+        <div class="items4">
+            <h4>social mnedia</h4>
+            <div class="itemss">
+                <input type="text">
+                <button>search</button>
+            </div>
+            <br>
+            <div class="itemss2">  
+                <div class="social">fa</div>
+                <div class="social">tw</div>
+                <div class="social">li</div>
+                <div class="social">yo</div>
+            </div>
+              
+
+            
+            
+        </div>
+   </div>
+</body>
+</html>
+
+
+<style>
+    .container1{
+        display: flex;
+        justify-content: center;
+        color: rgb(255, 123, 0);
+    }
+    .container2 {
+        flex-direction: row;
+        display: flex;
+        justify-content: space-around;
+        background-color: rgb(53, 53, 53);
+    }
+    ul{
+        list-style-type: none;
+    }
+    #lii{
+        color: rgb(255, 102, 0);
+        font-size: large;
+        font-weight: bold;
+    }
+    li{
+        color: darkgrey;
+    }
+    .itemss{
+        display: inline-flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .itemss > input{
+        width: 100px;
+        height: 20px;
+    }
+    .itemss > button{
+        background-color:rgb(255, 102, 0) ;
+    }
+    .itemss2{
+        display: flex;
+        flex-direction: row;
+    }
+    .itemss2 > div{
+        display: flex;
+        width: 25px;height: 25px;
+        background-color: rgb(255, 102, 0);
+        justify-content: space-between;
+
+    }
+</style>
